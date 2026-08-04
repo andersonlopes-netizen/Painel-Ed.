@@ -233,3 +233,29 @@ body {
     height: 100%;
     border: none;
 }
+/* Remove completamente as caixas e fundos dos botões */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Espaçamento entre os links */
+  justify-content: center;
+  padding: 20px 10px;
+  background-color: transparent !important; /* Garante que o fundo da área do menu seja o mesmo do site */
+}
+
+nav a {
+  background-color: transparent !important; /* Fundo transparente para o link */
+  color: #ffffff !important; /* Cor do texto branca */
+  text-decoration: none; /* Tira o sublinhado */
+  font-size: 16px; /* Tamanho da fonte confortável */
+  font-weight: normal; /* Peso normal da fonte */
+  padding: 5px;
+  border: none; /* Sem bordas */
+  box-shadow: none; /* Sem sombras */
+  transition: opacity 0.2s ease;
+}
+
+/* Efeito suave ao passar o dedo/mouse */
+nav a:hover {
+  opacity: 0.7;
+}
