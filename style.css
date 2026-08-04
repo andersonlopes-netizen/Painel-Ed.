@@ -233,33 +233,3 @@ body {
     height: 100%;
     border: none;
 }
-/* Estilo moderno para o menu de navegação em formato de botões */
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  padding: 15px;
-  background-color: #143547; /* Um tom ligeiramente mais escuro para destacar o menu */
-}
-
-nav a {
-  background-color: #ffffff;
-  color: #1a445c;
-  text-decoration: none;
-  padding: 10px 16px;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 14px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-  transition: all 0.2s ease;
-  text-align: center;
-  flex: 1 1 40%; /* Faz os botões se ajustarem bem em telas de celular */
-  max-width: 220px;
-}
-
-nav a:hover, nav a:active {
-  background-color: #f0f4f8;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
