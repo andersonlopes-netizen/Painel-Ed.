@@ -1,4 +1,4 @@
-const CACHE_NAME = 'painel-educacional-v1';
+const CACHE_NAME = 'painel-educacional-v2';
 const urlsToCache = [
   'index.html',
   'style.css',
