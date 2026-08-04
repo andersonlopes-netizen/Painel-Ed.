@@ -245,7 +245,7 @@ nav {
 
 nav a {
   background-color: #ffffff;
-  color: #1a445c;
+  color: #1a445c !important;
   text-decoration: none;
   padding: 10px 16px;
   border-radius: 8px;
